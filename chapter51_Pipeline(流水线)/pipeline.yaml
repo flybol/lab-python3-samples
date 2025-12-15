@@ -1,0 +1,17 @@
+name: demo_linear
+steps:
+  - type: log
+    message: "开始执行 Pipeline"
+
+  - type: set
+    key: username
+    value: "cool"
+
+  - type: log
+    message: "当前用户名是：${username}"
+
+  - type: sleep
+    seconds: 1
+
+  - type: log
+    message: "结束 ✅"
