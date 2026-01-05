@@ -1,0 +1,7 @@
+steps:
+  - uses: print
+    with:
+      name: "hello world"
+  - uses: print
+    with:
+      name: "你好！"
